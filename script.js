@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var TITLE = 'Prices ber meter in west north coast';
+  var TITLE = 'Prices per meter in west north coast';
 
   // `false` for vertical column chart, `true` for horizontal bar chart
   var HORIZONTAL = false;
