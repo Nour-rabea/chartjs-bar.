@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-  var TITLE = 'English Learners by Select School Districts in CT, 2018-19';
+  var TITLE = 'Prices ber meter in west north coast';
 
   // `false` for vertical column chart, `true` for horizontal bar chart
   var HORIZONTAL = false;
@@ -14,22 +14,22 @@ $(document).ready(function() {
   // For each column representing a data series, define its name and color
   var SERIES = [  
     {
-      column: 'nonlearner',
-      name: 'Non-Learners',
-      color: 'grey'
+      column: 'Min Price',
+      name: 'Min-Peice',
+      color: 'red'
     },
     {
-      column: 'learner',
-      name: 'Learners',
+      column: 'Max Price',
+      name: 'Max-price',
       color: 'blue'
     }
   ];
 
   // x-axis label and label in tooltip
-  var X_AXIS = 'School Districts';
+  var X_AXIS = 'Projects';
 
   // y-axis label, label in tooltip
-  var Y_AXIS = 'Number of Enrolled Students';
+  var Y_AXIS = 'Meter Price';
 
   // `true` to show the grid, `false` to hide
   var SHOW_GRID = true; 
