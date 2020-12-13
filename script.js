@@ -9,7 +9,7 @@ $(document).ready(function() {
   var STACKED = false;  
   
   // Which column defines 'bucket' names?
-  var LABELS = 'district';  
+  var LABELS = 'المشاريع';
 
   // For each column representing a data series, define its name and color
   var SERIES = [  
